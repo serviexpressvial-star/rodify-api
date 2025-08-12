@@ -1,4 +1,5 @@
-import os from fastapi.middleware.cors import CORSMiddleware
+import os 
+from fastapi.middleware.cors import CORSMiddleware
 from fastapi import FastAPI, HTTPException
 from sqlalchemy.orm import Session
 from sqlalchemy import text
